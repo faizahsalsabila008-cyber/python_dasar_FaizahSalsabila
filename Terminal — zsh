@@ -1,0 +1,10 @@
+#buat & aktifkan virtual environment
+❯ python -m venv .venv
+❯ source .venv/bin/activate
+
+# install paket dari PyPI 
+❯ pip install pandas requests
+
+#simpan & pasang ulang dependensi 
+❯ pip freeze > requirements.txt
+❯ pip install -r requirements.txt
